@@ -16,3 +16,8 @@
     "vite": "^5.0.0"
   }
 }
+{
+  "builds": [
+    { "src": "package.json", "use": "@vercel/static-build" }
+  ]
+}
